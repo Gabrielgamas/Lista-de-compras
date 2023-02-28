@@ -1,0 +1,55 @@
+.add-input {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  color: #333;
+  height: 40px;
+  padding: 0 10px;
+  border: none;
+  flex: 2;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.add-input:focus {
+  outline: none;
+}
+
+.all-container-add {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e8d5c4;
+}
+.container-add {
+  display: flex;
+  width: 100%;
+}
+
+.container-button {
+  flex: 1;
+  width: 100%;
+  margin-left: 0.5rem;
+}
+
+.img {
+  box-sizing: border-box;
+  width: 70%;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 480px) {
+  .container-add {
+    flex-direction: column;
+  }
+
+  .add-input {
+    margin-bottom: 1rem;
+    flex: none;
+  }
+
+  .container-button {
+    flex: none;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,12 @@
+.add-button {
+  background-color: #31809c;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  color: #fff;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}

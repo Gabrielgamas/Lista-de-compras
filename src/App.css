@@ -1,0 +1,14 @@
+.app {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #3a98b9;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem;
+  font-family: "montserrat";
+  color: #fff;
+}
